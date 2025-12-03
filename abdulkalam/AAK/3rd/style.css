@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.full_container {
+    border: 15px solid gray;
+}
+
+.head h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 15px 15px;
+    font-weight: 400;
+}
+
+/* .content {
+    background-color: wheat
+} */
+.box {
+    display: flex;
+    margin: 12px;
+    justify-content: space-evenly;
+
+
+}
+
+.img_box{
+
+    padding: 10px;
+    border: 3px solid yellow;
+}
+.img_box img {
+    border-radius: 50px;
+}
+
+.text_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_box ul li {
+    font-size: 20px;
+}
